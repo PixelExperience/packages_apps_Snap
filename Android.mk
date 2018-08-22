@@ -33,6 +33,7 @@ LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
 
 LOCAL_PACKAGE_NAME := Snap
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := platform
 
 LOCAL_AAPT_FLAGS += --rename-manifest-package org.lineageos.snap
 
